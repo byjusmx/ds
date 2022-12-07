@@ -14,17 +14,17 @@ var attempts = 0;
    boundary2 = createSprite(190,260,420,3);
    //Crea al sprite del personaje y dale color
    sam = createSprite(20,190,13,13);
-   sam.shapeColor = "green";
+   sam.shapeColor = "purple";
    
    //Crea los carros que funcionarán como obstáculos y pintalos de rojo
    car1 = createSprite(100,130,10,10);
-   car1.shapeColor = "red";
+   car1.shapeColor = "black";
    car2 = createSprite(215,130,10,10);
-   car2.shapeColor = "red";
+   car2.shapeColor = "orange";
    car3 = createSprite(165,250,10,10);
-   car3.shapeColor = "red";
+   car3.shapeColor = "yellow";
    car4 = createSprite(270,250,10,10);
-   car4.shapeColor = "red";
+   car4.shapeColor = "blue";
    //Agrega velocidad  para hacer que los autos se muevan.
    car1.velocityY = 8;
    car2.velocityY = 8;
